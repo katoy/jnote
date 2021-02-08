@@ -27,9 +27,9 @@ def clear_grid(grid):
 def print_grid(grid):
   for y in range(4, -1, -1):
     for x in range(5):
-      dot = "."
+      dot = "・"
       if grid[y][x] == 1:
-        dot = "*"
+        dot = "口"
       print(dot, end="")
     print()
   print()
